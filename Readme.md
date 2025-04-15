@@ -58,6 +58,7 @@ La solución está organizada de forma modular y por capas. Algunos proyectos so
 - Se ha utilizado una implementación en memoria para el repositorio `InMemoryTodoListRepository`, pero esta podría ser fácilmente sustituida por una implementación que se conecte a una base de datos u otro sistema de persistencia.
 - Los endpoints siguen una convención clara: las operaciones de obtención utilizan el verbo **GET**, las de creación **POST**, las de actualización **PUT** y las de eliminación **DELETE**, respetando así las buenas prácticas de diseño en APIs RESTful.
 - En este caso, no he implementado validaciones para las solicitudes que llegan al API. Aunque se podrían utilizar anotaciones de validación de Microsoft o bibliotecas como `FluentValidation`, he decidido omitir estas validaciones por simplicidad, manteniendo toda la lógica de validación exclusivamente dentro del dominio.
+- Para probar funcionalmente la API, se mantiene una instancia singleton de un `TodoList`, que se reutiliza para todas las peticiones. Esta implementación es adecuada solo para fines de prueba, ya que en un entorno real el objeto `TodoList` debería provenir de su repositorio correspondiente, donde se gestionaría de forma persistente y separada entre las peticiones.
 
 ## 🤔 Reflexión sobre el método `PrintItems`
 
