@@ -19,6 +19,8 @@ La solución está organizada de forma modular y por capas. Algunos proyectos so
 - **`Beyond.Domain.Test`**  
   Proyecto de pruebas unitarias que valida el comportamiento del dominio.
 
+  ![Consola](test.png)
+
 ### Aplicación de Consola
 
 - **`Beyond.Domain.Console`**  
@@ -31,10 +33,14 @@ La solución está organizada de forma modular y por capas. Algunos proyectos so
 - **`Beyond.Web.Server`**  
   Aplicación Web API desarrollada con .NET 8. Expone los endpoints necesarios para consumir la lógica del dominio vía HTTP.
 
+  ![Consola](api.png)
+
 ### Aplicación Cliente (SPA)
 
 - **`beyond.web.client`**  
   Proyecto desarrollado con React + JavaScript. Es una SPA (Single Page Application) que consume la API REST para mostrar y gestionar los datos de forma dinámica.
+
+  ![Consola](react.png)
 
 ## ⚙️ Consideraciones Técnicas
 

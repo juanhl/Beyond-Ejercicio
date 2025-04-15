@@ -18,11 +18,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{F8DAFCEA-A745-4D7D-B93F-E0F78EF9E0C7}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		..\..\..\OneDrive\Desktop\api.png = ..\..\..\OneDrive\Desktop\api.png
-		..\..\..\OneDrive\Desktop\console.png = ..\..\..\OneDrive\Desktop\console.png
-		..\..\..\OneDrive\Desktop\react.png = ..\..\..\OneDrive\Desktop\react.png
+		api.png = api.png
+		console.png = console.png
+		react.png = react.png
 		Readme.md = Readme.md
-		..\..\..\OneDrive\Desktop\test.png = ..\..\..\OneDrive\Desktop\test.png
+		test.png = test.png
 	EndProjectSection
 EndProject
 Global
